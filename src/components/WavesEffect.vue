@@ -78,10 +78,10 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "WavesEffect",
-  props: { waves: { type: Array, defaul: [] } },
+  props: { waves: { type: Object, defaul: {} } },
   setup(props) {
     //return {};
-    console.log(props.waves);
+    //console.log(props.waves);
   },
 });
 </script>
